@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>trueMatch</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <!-- internal stylesheet -->
+  <link rel="stylesheet" href=".\css\styles.css">
+  <!-- google-font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-theam");
+    }
+  </script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">TrueMatch</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Help</a>
+            </li>
+          </ul>
+          <a id="dark_icon" onclick="myFunction()"><i class="fas fa-adjust dark-mode"></i></a>
+        </div>
+      </nav>
+
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="title-heading">Meet new and interesting people nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="https://www.appdupe.com/img/tinder-clone/banner-img.png" alt="title photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+      <div class="row">
+        <dic class="col-lg-4 features-box">
+          <i class="fas fa-mobile-alt fa-4x icon"></i>
+          <h3 class="feature-text-h3">Simple, modern interface</h3>
+          <p class="feature-p">Interactive and easy-to-use interface.</p>
+        </dic>
+        <dic class="col-lg-4 features-box ">
+          <i class="fas fa-shoe-prints fa-4x icon"></i>
+          <h3 class="feature-text-h3">Crossed Path</h3>
+          <p class="feature-p">Find the people you have crossed paths with.</p>
+        </dic>
+        <dic class="col-lg-4 features-box ">
+          <i class="fas fa-user-secret fa-4x icon"></i>
+          <h3 class="feature-text-h3">Privacy First</h3>
+          <p class="feature-p">We guarantee the privacy of your data.</p>
+        </dic>
+        <dic class="col-lg-4 features-box ">
+          <i class="fas fa-check-circle fa-4x icon"></i>
+          <h3 class="feature-text-h3">You Decide</h3>
+          <p class="feature-p">Only match with people you like.</p>
+        </dic>
+        <dic class="col-lg-4 features-box ">
+          <i class="fas fa-hand-point-up fa-4x icon"></i>
+          <h3 class="feature-text-h3">Swiping is addictive</h3>
+          <p class="feature-p">Swipe profiles left or right using Swiping feature.</p>
+        </dic>
+        <dic class="col-lg-4 features-box ">
+          <i class="fas fa-heart fa-4x icon"></i>
+          <h3 class="feature-text-h3">basic features are free.</h3>
+          <p class="feature-p">All basic app features are free to use.</p>
+        </dic>
+      </div>
+  </section>
+
+  </div>
+  <!-- Testimonials -->
+
+  <section class="colored-section dark-mode" id="testimonials">
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item container-fluid active">
+          <h2 class="testimonial-text-h2">I am so much happy to use it. With TrueMatch I found the love of my life.thank you, TrueMatch team.</h2>
+          <img class="testimonial-image" src="images/testimonial-image3.jpeg" alt="dog-profile">
+          <div>
+            <em>Christina, 24 Singapore</em>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text-h2">I like this app very much. The best thing I can say is to try it and see if you like it. I'm liking it so far 👍.</h2>
+          <img class="testimonial-image" src="images/testimonial-image2.jpeg" alt="lady-profile">
+          <div>
+            <em>Maria, 28 France</em>
+          </div>
+
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text-h2">This app is perfect for single guys like me...real people, user-friendly interface..all in one great app 🤟❤.</h2>
+          <img class="testimonial-image" src="images/testimonial-image4.jpeg" alt="lady-profile">
+          <div>
+            <em>Joe, 30 New York</em>
+          </div>
+
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text-h2">Very nice app especially the feature of telling us about the people whom we have crossed paths with.</h2>
+          <img class="testimonial-image" src="images/testimonial-image1.jpeg" alt="lady-profile">
+          <div>
+            <em>The Dojo, 24 Washington</em>
+          </div>
+
+        </div </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+  </section>
+
+  <!-- Press -->
+
+  <section class="colored-section dark-mode" id="press">
+    <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+  <!-- bootstrap-pricing -->
+
+  <section class="white-section" id="pricing">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 mb-30 price-mb-768 make-it-zoom">
+          <div class="price-item">
+            <div class="price-top">
+              <h4>Plus</h4>
+              <h2 class="mb-0"><sup>$</sup>7</h2>
+              <span>Per Mo</span>
+            </div>
+            <div class="price-content">
+              <ul>
+                <li>
+                  <span>$7 Per Month</span>
+                </li>
+                <li>
+                  <span>Unlimited Likes</span>
+                </li>
+                <li>
+                  <span>Unlimited Rewinds</span>
+                </li>
+                <li>
+                  <span>5 Super Likes a day</span>
+                </li>
+                <li>
+                  <span>Hide Advertisements</span>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-dark buy-button" href="#">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-30 make-it-zoom">
+          <div class="price-item popular">
+            <div class="price-top">
+              <h4>GOLD</h4>
+              <h2 class="mb-0"><sup>$</sup>30</h2>
+              <span>Half Year</span>
+            </div>
+            <div class="price-content">
+              <ul>
+                <li>
+                  <span>$5 Per Month</span>
+                </li>
+                <li>
+                  <span>Profile boost</span>
+                </li>
+                <li>
+                  <span>Globle Location</span>
+                </li>
+                <li>
+                  <span>See Who Likes You</span>
+                </li>
+                <li>
+                  <span>Everything from Plus</span>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-outline-light buy-button" href="#">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-30 price-mb-992 make-it-zoom">
+          <div class="price-item">
+            <div class="price-top">
+              <h4>PLATINUM</h4>
+              <h2 class="mb-0"><sup>$</sup>48</h2>
+              <span>Per Year</span>
+            </div>
+            <div class="price-content">
+              <ul>
+                <li>
+                  <span>$4 Per Month</span>
+                </li>
+                <li>
+                  <span>Prioritized Likes</span>
+                </li>
+                <li>
+                  <span>Top Picks every day</span>
+                </li>
+                <li>
+                  <span>Message to anyone</span>
+                </li>
+
+                <li>
+                  <span>Everything from Gold</span>
+                </li>
+
+              </ul>
+              <button type="button" class="btn btn-dark buy-button" href="#">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+
+      <h3 class="cta-heading">Find the true love of your life today.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <section class="white-section" id="footer">
+
+    <div class="container-fluid">
+
+        <h4>Follow us</h4>
+        <span class="footer-span">
+          <ul class="footer-ul">
+            <li class="footer-li"><a class="footer-a" href="#footer"><i class="fab fa-facebook-f footer-social"></i></a></li>
+            <li class="footer-li"><a class="footer-a" href="#footer"><i class="fab fa-twitter footer-social"></i></i></a></li>
+            <li class="footer-li"><a class="footer-a" href="#footer"><i class="fab fa-google-plus-g footer-social"></i></i></a></li>
+            <li class="footer-li"><a class="footer-a" href="#footer"><i class="fab fa-linkedin-in footer-social"></i></i></a></li>
+            <li class="footer-li"><a class="footer-a" href="#footer"><i class="fab fa-instagram footer-social"></i></i></a></li>
+          </ul>
+        </span>
+      </div>
+      </section>
+
+<section id="copyright" class="colored-section">
+  <div class="copyright-container container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <span>Copyright © 2019, All Right Reserved TrueMatch</span>
+      </div>
+      <!-- End Col -->
+      <div class="col-md-6">
+        <div class="copyright-menu">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#footer">Terms</a>
+            </li>
+            <li>
+              <a href="#footer">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End col -->
+    </div>
+    <!-- End Row -->
+  </div>
+  <!-- End Copyright Container -->
+  <!-- End Copyright -->
+  <!-- Back to top -->
+  <div id="back-to-top" class="back-to-top">
+  <a type="button" class="btn btn-dark" href="#title" style="display: block;" title="Back to Top"  >
+    <i class="fa fa-angle-up"></i>
+  </a>
+  </div>
+  <!-- End Back to top -->
+
+</section>
+
+
+
+</body>
+
+</html>
